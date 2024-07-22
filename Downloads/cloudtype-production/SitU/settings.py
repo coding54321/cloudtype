@@ -156,6 +156,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CSRF_TRUSTED_ORIGINS = [
     'https://port-0-situ-lywnfbeb675dc59e.sel4.cloudtype.app',
+    'https://www.sit-u.com',
 ]
 
 CSRF_COOKIE_SECURE = True
