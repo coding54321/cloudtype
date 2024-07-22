@@ -153,3 +153,9 @@ ACCOUNT_UNIQUE_EMAIL = True
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://port-0-situ-lywnfbeb675dc59e.sel4.cloudtype.app',
+]
+
+CSRF_COOKIE_SECURE = True
